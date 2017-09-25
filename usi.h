@@ -8,6 +8,7 @@
 #define SCK PB7		//   <---- SHIFT CLOCK (SC)
 
 void InitSpi(void);					/* inicjalizacja sprzêtowego SPI */
+void init_spi(void);					/* inicjalizacja sprzêtowego SPI */
 uint8_t Tx_Rx_byte( uint8_t bajt );		/* wys³anie bajtu - sprzêtowe SPI */
 
 #endif /* MKUART_H_ */
